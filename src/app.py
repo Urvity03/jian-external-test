@@ -12,3 +12,8 @@ def format_summary(items=[]):
     for item in items:
         summary_text += str(item) + ", "
     return summary_text
+
+
+def get_ratio(value, divisor):
+    return value / divisor
+
